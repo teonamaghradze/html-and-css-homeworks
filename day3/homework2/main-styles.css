@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fdf3e7;
+}
+h1,
+h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: rgb(57, 57, 57);
+}
+.music-header {
+  background-image: url("./music/media/music-cover.jpg");
+  padding: 5rem;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 500px;
+  font-size: 3rem;
+  color: white;
+}
+.music-section {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.sport-section {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-top: 3rem;
+}
+
+.sport-header {
+  background-image: url("./sport/media/sport-cover.jpg");
+  padding: 10rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 500px;
+  font-size: 3rem;
+  color: white;
+  background-position: bottom;
+}
+
+.music-header:hover {
+  color: rgb(173, 88, 34);
+  transition: all 1s ease-out;
+}
+.sport-header:hover {
+  color: rgb(44, 43, 43);
+  transition: all 1s ease-out;
+}
+a {
+  text-decoration: none;
+  color: rgb(65, 66, 77);
+}
+li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+a:hover {
+  color: rgb(160, 95, 42);
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
