@@ -5,14 +5,14 @@
 }
 
 .container {
-  width: 600px;
-  height: 700px;
-  border: 4px solid black;
+  width: 500px;
+  height: 600px;
+  border: 10px solid black;
   margin: 5rem auto;
 }
 
 [class^="box"] {
-  border: 6px solid black;
+  border: 9px solid black;
   background-color: white;
 }
 
@@ -21,37 +21,39 @@
 }
 
 .box1 {
-  width: 96px;
-  height: 96px;
+  width: 120px;
+  height: 120px;
+  border-bottom: 18px solid black;
 }
 
 .box2 {
-  height: 400px;
+  height: 300px;
 }
 
 .box3 {
   width: 496px;
-  height: 496px;
+  height: 420px;
   background-color: rgb(205, 6, 6);
 }
 
 .box4 {
-  height: 196px;
-  width: 96px;
+  width: 120px;
+  height: 161px;
   background-color: rgb(24, 79, 157);
 }
 
 .box5 {
-  width: 396px;
+  width: 281px;
+  height: 161px;
 }
 
 .box6 {
-  width: 100px;
-  height: 80px;
+  width: 80px;
+  height: 70px;
 }
 
 .box7 {
-  width: 100px;
-  height: 116px;
+  width: 80px;
+  height: 93px;
   background-color: rgb(238, 173, 6);
 }

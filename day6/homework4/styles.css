@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 
+[class^="box"] {
+  border: 4px solid black;
+  background-color: rgb(244, 216, 180);
+}
+
 .container {
   width: 569px;
   margin: 5rem auto;
-}
-
-[class^="box"] {
-  border: 2px solid black;
-  background-color: rgb(244, 216, 180);
+  margin: 1rem;
 }
 
 .flex {
@@ -30,17 +31,23 @@
 .box2 {
   width: 60px;
   height: 90px;
+  border-top: none;
 }
 
 .box3 {
   width: 80px;
   height: 50px;
+  border-bottom: none;
+}
+.box4 {
+  border-bottom: none;
+  height: 86px;
+  width: 80px;
 }
 
-.box4,
 .box5 {
   width: 80px;
-  height: 90px;
+  height: 94px;
 }
 
 .box5 {
@@ -50,6 +57,8 @@
 .box6 {
   width: 70px;
   height: 50px;
+  border-left: none;
+  border-bottom: none;
 }
 
 .box7 {
@@ -63,6 +72,7 @@
 .box9 {
   width: 210px;
   height: 70px;
+  border-bottom: none;
 }
 
 .box9 {
@@ -86,6 +96,7 @@
   width: 80px;
   height: 30px;
   background-color: rgb(194, 10, 10);
+  border-bottom: none;
 }
 
 .box13 {
@@ -97,6 +108,7 @@
 .box14 {
   width: 70px;
   height: 140px;
+  border-left: none;
 }
 
 /***************************************/
@@ -104,6 +116,7 @@
 .box15 {
   width: 150px;
   height: 50px;
+  border-bottom: none;
   background-color: white;
 }
 
@@ -118,17 +131,21 @@
 .box17 {
   width: 80px;
   height: 230px;
+  border-right: none;
+  border-bottom: none;
 }
 
 .box18 {
   width: 70px;
   height: 30px;
+  border-bottom: none;
 }
 
 .box19 {
   width: 70px;
   height: 200px;
   background-color: rgb(255, 205, 23);
+  border-bottom: none;
 }
 
 /**********************************/
@@ -143,14 +160,19 @@
 .box21 {
   width: 80px;
   height: 110px;
+  border-left: none;
+  border-bottom: none;
 }
 
 .box22 {
   width: 80px;
   height: 30px;
   background-color: rgb(255, 205, 23);
+  border-left: none;
 }
 .box23 {
+  border-left: none;
+  border-right: none;
   width: 40px;
   height: 140px;
   background-color: white;
@@ -158,6 +180,9 @@
 .box24 {
   width: 120px;
   height: 90px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .box25 {
   width: 50px;
@@ -180,6 +205,7 @@
 .box28 {
   width: 120px;
   height: 70px;
+  border-right: none;
 }
 .box29 {
   width: 50px;
@@ -192,6 +218,8 @@
   height: 70px;
 }
 .box30 {
+  border-top: none;
+  border-bottom: none;
   background-color: white;
 }
 
@@ -201,6 +229,7 @@
   background-color: rgb(194, 10, 10);
   width: 80px;
   height: 160px;
+  border-right: none;
 }
 .box33 {
   width: 130px;
@@ -217,4 +246,5 @@
 .box35 {
   width: 210px;
   height: 70px;
+  border-top: none;
 }
