@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1920px;
+  height: 1814px;
+  font-family: "Roboto";
+  margin-top: 149.5px;
+  margin-left: 374.1px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #34495e;
+}
+h2 + span {
+  color: #1abc9c;
+}
+
+.first-p {
+  width: 1195px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 23px;
+  font-style: normal;
+  text-align: left;
+  color: #a1b1bc;
+  margin-top: 13px;
+}
+
+.lists {
+  display: flex;
+  gap: 62px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #a1b1bc;
+  margin-top: 18px;
+  margin-left: 1px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.list-box {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.square {
+  width: 16px;
+  height: 16px;
+  border-radius: 1px;
+  background: #34495e;
+  /* position: relative; */
+  margin-top: 2px;
+
+  /* top: 200px; */
+}
+
+.last-box {
+  margin-left: 1px;
+}
+
+.square-white {
+  background: none;
+  border: 1px solid #a1b1bc;
+}
+
+/**********************************************/
+.second-header {
+  margin-top: 37px;
+}
+
+.code-snippet {
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #a1b1bc;
+
+  width: 1170px;
+  height: 190px;
+
+  border-radius: 3px;
+
+  background: rgba(236, 240, 241, 0.5);
+
+  padding: 24px 0 25px 32px;
+  margin-top: 5px;
+}
+
+.third-txt {
+  width: 1182px;
+
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 23px;
+  font-style: normal;
+  text-align: left;
+  color: #a1b1bc;
+
+  margin-top: 24px;
+}
+
+/****************************/
+
+.main-pic {
+  width: 370px;
+  height: 400px;
+  background-color: #ecf0f1;
+  margin-top: 3px;
+  margin-left: 1px;
+}
+
+.txt-next-pic > p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 23px;
+  font-style: normal;
+  text-align: left;
+  color: #a1b1bc;
+  width: 791px;
+}
+
+.txt-next-pic p:nth-child(2) {
+  margin-top: 1px;
+}
+
+.txt-next-pic {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.pic-txt {
+  display: flex;
+  gap: 30px;
+  margin-top: 23px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 1170px;
+  height: 50px;
+
+  border-color: #ecf0f1;
+  border-width: 1px;
+  border-style: solid;
+
+  background: rgba(236, 240, 241, 0);
+  margin-top: 37px;
+}
+
+.cross + p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #a1b1bc;
+  /* word-spacing: 3px; */
+  /* color: red; */
+}
+
+.cross {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background: #34495e;
+  /* width: 44px;
+  height: 52px; */
+
+  font-family: "Roboto";
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 42px;
+  font-style: normal;
+  text-align: left;
+  color: #ecf0f1;
+  padding-left: 12px;
+  padding-top: 3px;
+}
+
+/* span {
+  word-spacing: 0.2px;
+  margin-left: 1px;
+} */
+
+span {
+  margin-left: 7px;
+  margin-right: 4px;
+}
+
+/***************************/
+.admin-img {
+  width: 106px;
+  height: 106px;
+
+  border-color: #ffffff;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
+
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.3));
+
+  background: #a1b1bc;
+}
+
+.admin-flex > p:first-child {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #2c3e50;
+  font-family: "Roboto Thin";
+}
+
+.admin-flex > p:nth-child(2) {
+  /* font-family: "Roboto Black"; */
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: normal;
+  /* text-align: left; */
+  color: #a1b1bc;
+  margin-top: 1px;
+  font-weight: 100;
+}
+
+.admin-flex > p:last-child {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  font-style: italic;
+  text-align: left;
+  color: #a1b1bc;
+  /* width: 1026px; */
+  margin-top: 8px;
+}
+
+.administrator {
+  display: flex;
+  gap: 27px;
+  padding: 27px 0 27px 28px;
+  border: 1px solid #ecf0f1;
+  margin-top: 49px;
+  margin-right: 200px;
+  width: 1170px;
+  height: 160px;
+}
