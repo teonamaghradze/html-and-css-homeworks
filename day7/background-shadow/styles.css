@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1925px;
+  height: 1283px;
+  margin-bottom: 43px;
+  margin-left: -1px;
+}
+
+.blue-cover {
+  width: 1925px;
+  height: 1080px;
+  opacity: 0.15;
+  background: linear-gradient(#1486ce, #032e49 45.16%, rgb(0, 0, 0));
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-img {
+  width: 1925px;
+  height: 1080px;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(157, 5, 5, 0) 0%,
+      rgba(6, 0, 0, 0.67) 45.16%,
+      rgba(0, 0, 0, 0.81) 67%,
+      #000000 100%
+    ),
+    url("./Image1.png");
+  background-position: left 32% bottom 22%;
+}
+
+.logo {
+  position: absolute;
+  top: 259px;
+  left: 133px;
+  width: 1660px;
+  height: 443px;
+}
