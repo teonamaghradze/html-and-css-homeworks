@@ -8,8 +8,7 @@
   width: 1920px;
   height: 1859px;
   margin-left: 374px;
-  margin-right: 347px;
-  margin-top: 149px;
+  margin-top: 150px;
 }
 
 .main-img {
@@ -41,7 +40,7 @@ h1 {
 .divider {
   display: flex;
   gap: 10px;
-  margin-bottom: 53.3px;
+  margin-bottom: 52.5px;
 }
 
 .divider > p {
@@ -101,7 +100,6 @@ h1 {
   margin: 29px 0 0 30px;
   border: 0.05px solid #f2eaea;
   position: relative;
-  /* border-left: 10px solid #21c2f8; */
 }
 
 .quote::before {
@@ -117,7 +115,7 @@ h1 {
   font-family: "Roboto";
   font-size: 14px;
   font-weight: normal;
-  line-height: 23px;
+  line-height: 22.95px;
   font-style: normal;
   text-align: left;
   color: #a1b1bc;
@@ -134,16 +132,16 @@ h1 {
   float: left;
 
   font-family: "Arial";
-  font-size: 30px;
+  font-size: 29.6px;
   font-weight: normal;
   line-height: 15.183107376098633px;
 
   font-style: normal;
   color: #21c2f8;
   padding: 12.9px 8px 2px 11.8px;
-  margin-top: 35px;
+  margin-top: 34px;
   margin-left: 1px;
-  margin-right: 5px;
+  margin-right: 4.9px;
 }
 
 .third-p-header {
@@ -154,8 +152,8 @@ h1 {
   font-style: normal;
   text-align: left;
   color: #34495e;
-  margin-top: 111px;
-  margin-left: 1px;
+  margin-top: 110px;
+  margin-left: 0.7px;
 }
 
 .third-p-txt {
