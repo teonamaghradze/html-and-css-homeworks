@@ -1,0 +1,32 @@
+.container {
+  margin: 0 auto;
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  gap: 20px;
+}
+
+.container > * {
+  background-color: rgb(181, 180, 180);
+  height: 220px;
+}
+
+.medium {
+  width: 220px;
+  grid-column: span 2;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+}
+
+.large {
+  width: 700px;
+  grid-column: span 6;
+}
+
+.last-row {
+  width: 460px;
+  grid-column: span 4;
+}
