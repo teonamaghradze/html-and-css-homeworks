@@ -1,11 +1,10 @@
 /*variables*/
 $main-font: Lato, sans-serif;
-$icon-size: 64px;
 $margin-icon: 9px 29px 0 0;
-$margin-container: 46px 0 0 374px;
-$padding-box: 14px 0px 33px 50px;
+$margin-container: 94px 0 0 374px;
+$padding-box: 13px 0px 33px 50px;
 $column-gap: 30px;
-$row-gap: 31px;
+$row-gap: 32px;
 $main-font: Lato, sans-serif;
 
 /*mixins*/
@@ -14,8 +13,9 @@ $main-font: Lato, sans-serif;
   color: $icon-color;
   border: 8px solid $border-color;
   border-radius: 50%;
-  width: $icon-size;
-  margin: 9px 29px 0 0;
+  width: 64px;
+  height: 64px;
+  margin: $margin-icon;
   font-size: 23px;
   text-align: center;
   padding-top: 13px;
@@ -85,6 +85,7 @@ $main-font: Lato, sans-serif;
 
   .check {
     @include icon($border-green, $bg-green, $icon-green);
+    margin-right: 28px;
   }
 
   .xmark {
@@ -93,6 +94,8 @@ $main-font: Lato, sans-serif;
 
   .bolt {
     @include icon($border-blue, $bg-blue, $icon-blue);
+    margin-right: 28px
+
   }
 
   .info {
